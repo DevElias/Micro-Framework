@@ -53,6 +53,8 @@ class Route
     
     private function run()
     {
+        $aparam = array();
+        
         $url = $this->getUrl();
         $aURL = explode('/', $url);
         
